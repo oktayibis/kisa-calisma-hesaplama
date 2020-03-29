@@ -1,24 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import Rules from "./component/Rules";
+import { MDBContainer } from "mdbreact";
+import Culculate from "./component/Culculate";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='app-center '>
+   
+      <header>
+        <h1 className='border-radius display-4 text-center bg-dark text-light'> Kısa Çalışma Ödeneği Hesaplama</h1>
       </header>
+
+     <MDBContainer>
+
+     <Rules />
+
+     </MDBContainer>
+     <MDBContainer>
+       <Culculate/>
+     </MDBContainer>
+   
+      
     </div>
   );
 }
