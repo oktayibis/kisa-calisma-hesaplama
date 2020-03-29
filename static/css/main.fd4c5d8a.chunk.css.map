@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AACA,YACE,SAAU,CACV,cACF,CAEA,eACE,kBACF","file":"main.fd4c5d8a.chunk.css","sourcesContent":["\n.app-center{\n  width: 80%;\n  margin: 2% auto;\n}\n\n.border-radius{\n  border-radius: 10px;\n}\n"]}
