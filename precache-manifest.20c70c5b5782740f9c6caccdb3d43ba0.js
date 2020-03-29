@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d55fafc63a660621ec9cc1b12034f3fb",
+    "revision": "c82fd425a8d4363ebfc8285df0f8556f",
     "url": "/kisa-calisma-hesaplama/index.html"
   },
   {
