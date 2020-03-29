@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import { MDBInput, MDBAlert, MDBRow, MDBCol } from "mdbreact";
+import { MDBInput, MDBAlert } from "mdbreact";
 
 const Culculate = () => {
-  const [totalIncome, setTotalIncome] = useState(0);
   const [monthlyNet, setMonthlyNet] = useState(0);
   const [workedDays, setWorkedDays] = useState(0)
 
+
+  const totalIncome = monthlyNet * 12 * 1.35
   const dailyPay = (totalIncome / 12 / 30) * 0.6;
   const iskurPay = dailyPay * 30 > 4381 ? 4381 : dailyPay * 30;
   const isverenPay = monthlyNet / 30 * workedDays;
@@ -14,33 +15,25 @@ const Culculate = () => {
   return (
     <div>
       <h2 className="diplay-4">Hesaplama</h2>
+
       <MDBInput
-        onChange={e => setTotalIncome(e.target.value)}
-        type="number"
-        label="Son 12 aylık primi ödenmiş toplam kazançınız"
-      >
-        TL
-      </MDBInput>
-      <MDBRow>
-        <MDBCol>
-          <MDBInput
             onChange={e => setMonthlyNet(e.target.value)}
             type="number"
-            label="Aylık net maaşınız"
+            label="Aylık Agi Haric Net Maas"
           >
             TL
           </MDBInput>
-        </MDBCol>
-        <MDBCol>
+  
+     
           <MDBInput
             onChange={e => setWorkedDays(e.target.value)}
             type="number"
-            label="Çalıştığınız / Çalışacağınız Gün Sayısı"
+            label="Varsa çalışma günü sayısı "
           >
-            TL
+            Gün Sayısı
           </MDBInput>
-        </MDBCol>
-      </MDBRow>
+       
+
 
       <MDBAlert color="info">
         <small className="d-flex justify-content-evenly">Günlük Hakediş:</small>
