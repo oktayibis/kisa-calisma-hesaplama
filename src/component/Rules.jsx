@@ -20,7 +20,7 @@ render() {
      
       <MDBBtn
         color="info "
-        href="!#"
+      
         onClick={this.toggleCollapse("company")}
         style={{ marginBottom: "1rem" }}
         className='border-radius'
