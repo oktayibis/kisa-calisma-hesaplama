@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a10f1c5f306d9ac7d368283fa7e20d67",
+    "revision": "aaadab237d8480939d4bba4ba813c3a5",
     "url": "/kisa-calisma-hesaplama/index.html"
   },
   {
-    "revision": "2ec288ad50b6b8ef349f",
+    "revision": "c64c05451d69d140bca6",
     "url": "/kisa-calisma-hesaplama/static/css/2.33566acc.chunk.css"
   },
   {
-    "revision": "3b46dfe92addfad21d2c",
+    "revision": "29ae5eb45b247de6d8f3",
     "url": "/kisa-calisma-hesaplama/static/css/main.fd4c5d8a.chunk.css"
   },
   {
-    "revision": "2ec288ad50b6b8ef349f",
-    "url": "/kisa-calisma-hesaplama/static/js/2.c9a4f59d.chunk.js"
+    "revision": "c64c05451d69d140bca6",
+    "url": "/kisa-calisma-hesaplama/static/js/2.13d10780.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/kisa-calisma-hesaplama/static/js/2.c9a4f59d.chunk.js.LICENSE.txt"
+    "url": "/kisa-calisma-hesaplama/static/js/2.13d10780.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3b46dfe92addfad21d2c",
-    "url": "/kisa-calisma-hesaplama/static/js/main.7b67a5f3.chunk.js"
+    "revision": "29ae5eb45b247de6d8f3",
+    "url": "/kisa-calisma-hesaplama/static/js/main.345d8e22.chunk.js"
   },
   {
     "revision": "f21940cb97dc11815b89",

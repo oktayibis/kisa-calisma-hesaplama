@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/kisa-calisma-hesaplama/static/css/main.fd4c5d8a.chunk.css",
-    "main.js": "/kisa-calisma-hesaplama/static/js/main.7b67a5f3.chunk.js",
-    "main.js.map": "/kisa-calisma-hesaplama/static/js/main.7b67a5f3.chunk.js.map",
+    "main.js": "/kisa-calisma-hesaplama/static/js/main.345d8e22.chunk.js",
+    "main.js.map": "/kisa-calisma-hesaplama/static/js/main.345d8e22.chunk.js.map",
     "runtime-main.js": "/kisa-calisma-hesaplama/static/js/runtime-main.cf50ee35.js",
     "runtime-main.js.map": "/kisa-calisma-hesaplama/static/js/runtime-main.cf50ee35.js.map",
     "static/css/2.33566acc.chunk.css": "/kisa-calisma-hesaplama/static/css/2.33566acc.chunk.css",
-    "static/js/2.c9a4f59d.chunk.js": "/kisa-calisma-hesaplama/static/js/2.c9a4f59d.chunk.js",
-    "static/js/2.c9a4f59d.chunk.js.map": "/kisa-calisma-hesaplama/static/js/2.c9a4f59d.chunk.js.map",
+    "static/js/2.13d10780.chunk.js": "/kisa-calisma-hesaplama/static/js/2.13d10780.chunk.js",
+    "static/js/2.13d10780.chunk.js.map": "/kisa-calisma-hesaplama/static/js/2.13d10780.chunk.js.map",
     "index.html": "/kisa-calisma-hesaplama/index.html",
-    "precache-manifest.bbc93cf8005bef3dc30934a7bb27f751.js": "/kisa-calisma-hesaplama/precache-manifest.bbc93cf8005bef3dc30934a7bb27f751.js",
+    "precache-manifest.51bc442eadb3779491d986d0cc48ab57.js": "/kisa-calisma-hesaplama/precache-manifest.51bc442eadb3779491d986d0cc48ab57.js",
     "service-worker.js": "/kisa-calisma-hesaplama/service-worker.js",
     "static/css/2.33566acc.chunk.css.map": "/kisa-calisma-hesaplama/static/css/2.33566acc.chunk.css.map",
     "static/css/main.fd4c5d8a.chunk.css.map": "/kisa-calisma-hesaplama/static/css/main.fd4c5d8a.chunk.css.map",
-    "static/js/2.c9a4f59d.chunk.js.LICENSE.txt": "/kisa-calisma-hesaplama/static/js/2.c9a4f59d.chunk.js.LICENSE.txt",
+    "static/js/2.13d10780.chunk.js.LICENSE.txt": "/kisa-calisma-hesaplama/static/js/2.13d10780.chunk.js.LICENSE.txt",
     "static/media/mdb.css": "/kisa-calisma-hesaplama/static/media/arrow_right.8ef6a08c.svg",
     "static/media/all.min.css": "/kisa-calisma-hesaplama/static/media/fa-solid-900.ec763292.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cf50ee35.js",
     "static/css/2.33566acc.chunk.css",
-    "static/js/2.c9a4f59d.chunk.js",
+    "static/js/2.13d10780.chunk.js",
     "static/css/main.fd4c5d8a.chunk.css",
-    "static/js/main.7b67a5f3.chunk.js"
+    "static/js/main.345d8e22.chunk.js"
   ]
 }
