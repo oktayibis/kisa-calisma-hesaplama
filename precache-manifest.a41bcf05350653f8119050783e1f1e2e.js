@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c82fd425a8d4363ebfc8285df0f8556f",
+    "revision": "d11acf6b3193eb7fab3e5b16544020ef",
     "url": "/kisa-calisma-hesaplama/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kisa-calisma-hesaplama/static/css/2.33566acc.chunk.css"
   },
   {
-    "revision": "6f216850accba8565956",
+    "revision": "3e220ff0927f7f02b198",
     "url": "/kisa-calisma-hesaplama/static/css/main.fd4c5d8a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kisa-calisma-hesaplama/static/js/2.c9a4f59d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f216850accba8565956",
-    "url": "/kisa-calisma-hesaplama/static/js/main.b42ca42d.chunk.js"
+    "revision": "3e220ff0927f7f02b198",
+    "url": "/kisa-calisma-hesaplama/static/js/main.f11e63b0.chunk.js"
   },
   {
     "revision": "f21940cb97dc11815b89",
