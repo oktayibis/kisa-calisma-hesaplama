@@ -33,13 +33,16 @@ const Culculate = () => {
             Gün Sayısı
           </MDBInput>
        
+          <MDBAlert color={monthlyTotal > 1700 ? 'success' : 'dark'}>
+        <small className="d-flex justify-content-evenly">Toplam Net Aylik: </small>
+        {monthlyTotal.toFixed(1)} TL
+      </MDBAlert>
 
-
-      <MDBAlert color="info">
+      <MDBAlert color="dark">
         <small className="d-flex justify-content-evenly">Günlük Hakediş:</small>
         {dailyPay.toFixed(1)} TL
       </MDBAlert>
-      <MDBAlert color={iskurPay === 4381 ? "danger" : "primary"}>
+      <MDBAlert color={iskurPay === 4381 ? "danger" : "dark"}>
         <small className="d-flex justify-content-evenly">
           Iskur Aylik Ödeme Tutarı:
         </small>
@@ -48,16 +51,13 @@ const Culculate = () => {
           ? "  --IsKur un ödeme miktari brüt asgari ücretin %150 sinden fazla olamaz! "
           : ""}
       </MDBAlert>
-      <MDBAlert color="warning">
+      <MDBAlert color="dark">
         <small className="d-flex justify-content-evenly">
           Isveren Aylik Ödeme:{" "}
         </small>
         {isverenPay.toFixed(1)} TL
       </MDBAlert>
-      <MDBAlert color="success">
-        <small className="d-flex justify-content-evenly">Toplam Aylik: </small>
-        {monthlyTotal.toFixed(1)} TL
-      </MDBAlert>
+    
     </div>
   );
 };
