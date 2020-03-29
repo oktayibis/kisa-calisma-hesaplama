@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kisa-calisma-hesaplama/static/css/main.fd4c5d8a.chunk.css",
-    "main.js": "/kisa-calisma-hesaplama/static/js/main.f11e63b0.chunk.js",
-    "main.js.map": "/kisa-calisma-hesaplama/static/js/main.f11e63b0.chunk.js.map",
+    "main.js": "/kisa-calisma-hesaplama/static/js/main.7b67a5f3.chunk.js",
+    "main.js.map": "/kisa-calisma-hesaplama/static/js/main.7b67a5f3.chunk.js.map",
     "runtime-main.js": "/kisa-calisma-hesaplama/static/js/runtime-main.cf50ee35.js",
     "runtime-main.js.map": "/kisa-calisma-hesaplama/static/js/runtime-main.cf50ee35.js.map",
     "static/css/2.33566acc.chunk.css": "/kisa-calisma-hesaplama/static/css/2.33566acc.chunk.css",
     "static/js/2.c9a4f59d.chunk.js": "/kisa-calisma-hesaplama/static/js/2.c9a4f59d.chunk.js",
     "static/js/2.c9a4f59d.chunk.js.map": "/kisa-calisma-hesaplama/static/js/2.c9a4f59d.chunk.js.map",
     "index.html": "/kisa-calisma-hesaplama/index.html",
-    "precache-manifest.a41bcf05350653f8119050783e1f1e2e.js": "/kisa-calisma-hesaplama/precache-manifest.a41bcf05350653f8119050783e1f1e2e.js",
+    "precache-manifest.bbc93cf8005bef3dc30934a7bb27f751.js": "/kisa-calisma-hesaplama/precache-manifest.bbc93cf8005bef3dc30934a7bb27f751.js",
     "service-worker.js": "/kisa-calisma-hesaplama/service-worker.js",
     "static/css/2.33566acc.chunk.css.map": "/kisa-calisma-hesaplama/static/css/2.33566acc.chunk.css.map",
     "static/css/main.fd4c5d8a.chunk.css.map": "/kisa-calisma-hesaplama/static/css/main.fd4c5d8a.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.33566acc.chunk.css",
     "static/js/2.c9a4f59d.chunk.js",
     "static/css/main.fd4c5d8a.chunk.css",
-    "static/js/main.f11e63b0.chunk.js"
+    "static/js/main.7b67a5f3.chunk.js"
   ]
 }
