@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kisa-calisma-hesaplama/precache-manifest.ef357390957548c43497c3f833a62f21.js"
+  "/kisa-calisma-hesaplama/precache-manifest.f60baeee8b57a0d462bcb583c805819a.js"
 );
 
 self.addEventListener('message', (event) => {
