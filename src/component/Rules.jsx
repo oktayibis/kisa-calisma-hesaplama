@@ -47,7 +47,7 @@ render() {
         <MDBCollapse id="company" isOpen={this.state.collapseID}>
      
             <MDBAlert className='text-justify' color='info'>
-            <li className='m-2 '>Kısa Çalışma ödeneğinden yararlanabilmek için işveren tarafından <a href='https://www.iskur.gov.tr/isveren/kisa-calisma-odenegi/basvuru-icin-gerekli-belgeler-ve-il-iletisim-adresleri/'>İşkur'a </a> belirtildiği şekilde başvuru yapması gerekmektedir.</li>
+            <li className='m-2 '>Kısa Çalışma ödeneğinden yararlanabilmek için işveren tarafından <a href='https://www.iskur.gov.tr/isveren/kisa-calisma-odenegi/basvuru-icin-gerekli-belgeler-ve-il-iletisim-adresleri/' target='_blank'>İşkur'a </a> belirtildiği şekilde başvuru yapması gerekmektedir.</li>
             <li className='m-2'>Genel ekonomik, sektörel, bölgesel kriz veya zorlayıcı sebeplerle işyerindeki haftalık çalışma sürelerinin geçici olarak en az üçte bir oranında azaltılması veya süreklilik koşulu aranmaksızın işyerinde faaliyetin tamamen veya kısmen en az dört hafta süreyle durdurulması hallerinde işveren tarafından başvuru yapılması gerekmektedir.
             <span className='font-weight-bold'> COVID-19 Zorlayıcı sebeplerden kabul edilmiş ve İşkur tarafından kısa çalışma ödeneği uygunluk listesine alınmıştır.</span></li>
             <li className='m-2'>İşverenin başvurusu sonrası görevlendirilen bir müfettiş, yukarıda belirtilen şartlara durumun uygun olup olmadığını analiz edecektir.</li>
@@ -81,9 +81,9 @@ render() {
           </MDBAlert>
         
         </MDBCollapse>
-        <div class="card my-3">
-  <div class="card-body">
-    This is some text within a panel body.
+        <div className="card my-3">
+  <div className="card-body">
+    <a href='https://www.iskur.gov.tr/isveren/kisa-calisma-odenegi' target='_blank' >Daha ayrıntılı bilgi için İşkur tarafından hazırlanan resmi bilgilendirme sayfasını kontrol edebilirsiniz.</a>
   </div>
 </div>
         </MDBContainer>
