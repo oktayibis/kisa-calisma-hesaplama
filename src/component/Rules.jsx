@@ -52,6 +52,7 @@ render() {
             <span className='font-weight-bold'> COVID-19 Zorlayıcı sebeplerden kabul edilmiş ve İşkur tarafından kısa çalışma ödeneği uygunluk listesine alınmıştır.</span></li>
             <li className='m-2'>İşverenin başvurusu sonrası görevlendirilen bir müfettiş, yukarıda belirtilen şartlara durumun uygun olup olmadığını analiz edecektir.</li>
             <li className='m-2'>Eğer müfettiş onayı ile kısa çalışma ödeneği uygun görülürse iş veren bu durumdan yararlanmasını istediği çalışan listesini işkur ile paylaşacaktır.</li>
+            <li className='m-2'>Işkur tarafından ödeme onaydan bir hafta sonra başlayacatır. Bu bir haftalık maaşın en az yarısını ödemek koşuluyla işverenin sorumluluğundadır. </li>
 
           </MDBAlert>
      
@@ -61,7 +62,11 @@ render() {
             <MDBAlert className='text-left' color='warning'>
             <li className='m-2'>Son 60 gün hizmet akdine tabi olmak kaydıyla son 3 yıl içinde 450 gün sigorta priminin ödemiş olması gerekmektedir.</li>
             <li className='m-2'>Sigorta primi gün sayısı e-Devlet üzerinden, SGK dökümü ile kontrol edilebilir.</li>
-            <li className='m-2'>Ödeme süresi 3 ayı aşamaz</li>
+            <li className='m-2'>Ödeme süresi 3 ayı aşamazç</li> 
+            <li className='m-2'>Ödeme süresi bakanlar kurulu kararı ile 6 aya uzatılabilir.</li>
+            <li className='m-2'>Kısa çalışma ödeneği süresinde iş sözleşmesi tek taraflı olarak sonlandırılamaz.</li>
+            <li className='m-2'>Kısa çalışma ödeneği süresinde işveren ve işçi iş sözleşmesindeki yükümlülüklerini askıya alır.</li>
+
           </MDBAlert>
         
         
@@ -72,9 +77,15 @@ render() {
             <li className='m-2'>Sigortalı çalışanın son oniki aylık prime esas kazançları dikkate alınarak hesaplanan günlük ortalama brüt kazancının % 60’ıdır. </li>
             <li className='m-2'>Bu şekilde hesaplanan kısa çalışma ödeneği miktarı, aylık asgari ücretin brüt tutarının % 150’sini geçemez. </li>
             <li className='m-2'>Eğer sigortalının çalıştığı gün olursa, bu miktar işveren tarafından ödenecektir.</li>
+            <li className='m-2'>Haftalık izin, resmi ve ulusal tatil gibi izinler işveren ve işkur tarafından aynı ortantıda paylaşılarak ödenir.</li>
           </MDBAlert>
         
         </MDBCollapse>
+        <div class="card my-3">
+  <div class="card-body">
+    This is some text within a panel body.
+  </div>
+</div>
         </MDBContainer>
       </div>
     );
