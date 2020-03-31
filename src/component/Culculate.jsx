@@ -8,7 +8,6 @@ const Culculate = () => {
 
   const damgaVergisiOrani = 0.00759;
   const maksIskurPay = asgariBrut * 1.5 * (1-damgaVergisiOrani);
-  console.log(`maks iskur`, maksIskurPay);
   
 
   const totalIncome = monthlyNet * 12 * 1.35 //yillik brut gelirin yaklasik olarak hesaplanmasi
