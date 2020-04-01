@@ -22,12 +22,11 @@ const Culculate = () => {
 
   return (
     <div>
-      <h2 className="diplay-4">Hesaplama</h2>
 
       <MDBInput
             onChange={e => setMonthlyNet(e.target.value)}
             type="number"
-            label="Aylık (AGI Hariç) Net Maaş"
+            label="Aylık (AGİ Hariç) Net Maaş"
           >
             TL
           </MDBInput>
@@ -38,9 +37,9 @@ const Culculate = () => {
          <MDBInput
             onChange={e => setWorkedDays(e.target.value)}
             type="number"
-            label="İşyerinde çalışılan gün sayısı (varsa) "
+            label="Varsa çalışılan gün "
           >
-            Gün Sayısı
+         
           </MDBInput>
          </MDBCol>
 
@@ -49,10 +48,10 @@ const Culculate = () => {
           value={asgariBrut}
             onChange={e => setAsgariBrut(e.target.value)}
             type="number"
-            label="Brüt Asgari Ucret "
+            label="Brüt Asgari Ücret"
            
           >
-            2020 Yili icin 2943TL
+           TL
           </MDBInput>
          </MDBCol>
        </MDBRow>
@@ -61,7 +60,7 @@ const Culculate = () => {
        
           <MDBAlert className={monthlyTotal > 1700 ? 'font-weight-bold animated shake' : 'font-weight-bold '}  color={monthlyTotal > 1700 ? 'success' : 'dark'}>
          
-        <small className="d-flex justify-content-evenly ">Toplam Net Aylik (Damga vergisi sonrasi): </small>
+        <small className="d-flex justify-content-evenly ">Toplam Net Aylık (Damga vergisi sonrası): </small>
   
         {monthlyTotal.toFixed(2)} TL
       </MDBAlert>
@@ -72,7 +71,7 @@ const Culculate = () => {
       </MDBAlert>
       <MDBAlert color={iskurPay === maksIskurPay ? "danger" : "dark"}>
         <small className="d-flex justify-content-evenly ">
-          Iskur Aylik Ödeme Tutarı:
+          İşkur Aylık Ödeme Tutarı:
         </small>
         {iskurPay.toFixed(2)} TL
         {iskurPay === maksIskurPay
