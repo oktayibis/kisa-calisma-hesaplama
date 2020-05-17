@@ -6,15 +6,16 @@ const Culculate = () => {
   const [workedDays, setWorkedDays] = useState(0);
   const [asgariBrut, setAsgariBrut] = useState(2943)
 
-  const damgaVergisiOrani = 0.00759;
-  const maksIskurPay = asgariBrut * 1.5 * (1-damgaVergisiOrani);
-  
+  const DAMGA_VERIGISI = 0.00759;
+  const maksIskurPay = asgariBrut * 1.5 * (1-DAMGA_VERIGISI);
+  const maxIskurPayDaily = maksIskurPay / 30;
 
   const totalIncome = monthlyNet * 12 * 1.35 //yillik brut gelirin yaklasik olarak hesaplanmasi
-  const dailyPayIskur = (totalIncome / 12 / 30) * 0.6; //iskura tabii miktarin hesaplanmasi
+  const dailyPayIskur = ((totalIncome / 12 / 30) * 0.6); //iskura tabii miktarin hesaplanmasi
+  const dailyIskurNetPay = dailyPayIskur > maxIskurPayDaily ? maxIskurPayDaily : dailyPayIskur; //Gunluk iskura dusen max. odeme miktarinin belirlenmesi
   const dailyPayIsveren = monthlyNet / 30; //isverenin gunluk odemesi gereken tutar
   const isKurDays = 30-workedDays; //calismadigi gunlerin hesaplanmasi
-  let iskurPay = dailyPayIskur * isKurDays > maksIskurPay ? maksIskurPay : dailyPayIskur * isKurDays * (1 - damgaVergisiOrani); //iskurun odemesi gereken tutar. iskurun odemesi gereken gun sayisi * brut maasin yuzde 60. brut asgari ucretin %150'sinden fazla olamaz
+  let iskurPay = dailyIskurNetPay * isKurDays * (1 - DAMGA_VERIGISI); //iskurun odemesi gereken tutar. iskurun odemesi gereken gun sayisi * brut maasin yuzde 60. brut asgari ucretin %150'sinden fazla olamaz
 
   
   const isverenPay =dailyPayIsveren * workedDays;
