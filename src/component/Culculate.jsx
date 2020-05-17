@@ -66,9 +66,10 @@ const Culculate = () => {
         {monthlyTotal.toFixed(2)} TL
       </MDBAlert>
 
-      <MDBAlert color="dark">
+      <MDBAlert color={dailyPayIskur >= maxIskurPayDaily ? "danger" : "dark"}>
         <small className="d-flex justify-content-evenly">Günlük Hakediş:</small>
         {dailyPayIskur.toFixed(2)} TL
+      <br /> <strong> Hesaplanacak Net: {dailyPayIskur >= maxIskurPayDaily ?  `${maxIskurPayDaily.toFixed(2)} ₺ --> Tavan ödeme miktarıdır.` : `${dailyPayIskur.toFixed(2)}₺`} </strong>
       </MDBAlert>
       <MDBAlert color={iskurPay === maksIskurPay ? "danger" : "dark"}>
         <small className="d-flex justify-content-evenly ">
